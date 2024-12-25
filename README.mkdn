@@ -1,36 +1,35 @@
-LineageOS
-===========
+### Initializing Local Repo ###
 
-Getting started
----------------
-
-To get started with Android/LineageOS, you'll need to get familiar with [Source Control Tools](https://source.android.com/setup/develop).
-
-To initialize your local repository using the LineageOS trees, use a command like this:
+Create a directory for the source files
+```bash
+mkdir LOS-22 && cd LOS-22
 ```
-repo init -u https://github.com/LineageOS/android.git -b lineage-22.1 --git-lfs
+
+Install Repo in the created directory
+```bash
+repo init --depth=1 --no-repo-verify -u https://github.com/yehonatan2020/lineage_android -b lineage-22.1 --git-lfs
 ```
-Then to sync up:
+
+This is what you will run each time you want to pull in upstream changes. Keep in mind that on your
+first run, it is expected to take a while as it will download all the required Android source files
+and their change histories.
+
+- Let Repo take care of the hard work
+```bash
+repo --no-pager --color=always sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune
 ```
-repo sync
+
+- Set up the build environment
+```bash
+source build/envsetup.sh
 ```
-Please see the [LineageOS Wiki](https://wiki.lineageos.org/) for building instructions, by device.
 
+- Lunch a target
+```bash
+lunch lineage_codename-ap3a-userdebug
+```
 
-Submitting patches
-------------------
-Patches are always welcome! Please submit your patches via LineageOS Gerrit!
-
-Simply follow our guide on [how to submit patches](https://wiki.lineageos.org/submitting-patch-howto.html).
-
-To view the status of your and others' patches, visit [LineageOS Gerrit Code Review](https://review.lineageos.org/).
-
-
-Buildbot
---------
-
-All supported devices are built weekly and periodically as changes are committed to ensure the source trees remain buildable.
-
-You can view the current build statuses at [LineageOS Buildkite](https://buildkite.com/lineageos).
-
-Builds produced weekly by the buildbot can be downloaded from [LineageOS downloads](https://download.lineageos.org/).
+- To start compiling (fastboot flashable image)
+```bash
+m updatepackage
+```
