@@ -1,3 +1,5 @@
+![Logo](https://raw.githubusercontent.com/yehonatan2020/losp_manifest/lineage-22.1/Banner.png)
+
 ### Initializing Local Repo ###
 
 Create a directory for the source files
