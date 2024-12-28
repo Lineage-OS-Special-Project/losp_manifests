@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<project path="vendor/gms" name="StatiXOS/google-mobile-services" revision="vic-qpr1" fetch="https://git.keksla.wtf" />
+ 
+</manifest>
