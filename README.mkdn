@@ -9,7 +9,7 @@ mkdir LOS-22 && cd LOS-22
 
 Install Repo in the created directory
 ```bash
-repo init --depth=1 --no-repo-verify -u https://github.com/yehonatan2020/lineage_android -b lineage-22.1 --git-lfs
+repo init --depth=1 --no-repo-verify -u https://github.com/LineageOs-Special-Project/losp_manifests -b lineage-22.1 --git-lfs
 ```
 
 This is what you will run each time you want to pull in upstream changes. Keep in mind that on your
