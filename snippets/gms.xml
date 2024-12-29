@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<project path="vendor/gms" name="StatiXOS/google-mobile-services" revision="vic-qpr1" fetch="https://git.keksla.wtf" />
+ <!-- Gitea -->
+  <remote  name="gitea"
+           fetch="https://git.keksla.wtf/" />
+
+<project path="vendor/gms" name="StatiXOS/google-mobile-services" remote="gitea" revision="vic-qpr1" clone-depth="1" />
  
 </manifest>
