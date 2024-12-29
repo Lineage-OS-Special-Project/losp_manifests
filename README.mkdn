@@ -31,7 +31,12 @@ source build/envsetup.sh
 lunch lineage_codename-ap3a-userdebug
 ```
 
-- To start compiling (fastboot flashable image)
+- To compile a fastboot flashable image.....
 ```bash
 m updatepackage
+```
+
+- To compile a sideloadable  image.....
+```bash
+m bacon
 ```
