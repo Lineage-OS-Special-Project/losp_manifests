@@ -28,7 +28,7 @@ source build/envsetup.sh
 
 - Lunch a target
 ```bash
-lunch lineage_codename-ap3a-userdebug
+lunch lineage_codename-ap4a-userdebug
 ```
 
 - To compile a fastboot flashable image.....
