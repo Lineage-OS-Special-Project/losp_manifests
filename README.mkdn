@@ -1,4 +1,4 @@
-![Logo](https://raw.githubusercontent.com/yehonatan2020/losp_manifest/lineage-22.1/Banner.png)
+![Logo](https://raw.githubusercontent.com/Lineage-OS-Special-Project/losp_manifests/lineage-22.1/Banner.png)
 
 ### Initializing Local Repo ###
 
