@@ -7,7 +7,7 @@ Create a directory for the source files
 mkdir LOSP-22.1 && cd LOSP-22.1
 ```
 
-Install Repo in the created directory
+Install Repo in the created directory...
 ```bash
 repo init --depth=1 --no-repo-verify -u https://github.com/Lineage-OS-Special-Project/losp_manifests -b lineage-22.1 --git-lfs
 ```
@@ -16,27 +16,27 @@ This is what you will run each time you want to pull in upstream changes. Keep i
 first run, it is expected to take a while as it will download all the required Android source files
 and their change histories.
 
-- Let Repo take care of the hard work
+- Grab a coffee and let Repo do it's job...
 ```bash
 repo --no-pager --color=always sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune
 ```
 
-- Set up the build environment
+- Set up the build environment...
 ```bash
 source build/envsetup.sh
 ```
 
-- Lunch a target
+- Lunch a target...
 ```bash
 lunch lineage_codename-ap4a-userdebug
 ```
 
-- To compile a fastboot flashable image.....
+- To compile a fastboot flashable image...
 ```bash
 m updatepackage
 ```
 
-- To compile a sideloadable  image.....
+- To compile a sideloadable  image...
 ```bash
 m bacon
 ```
