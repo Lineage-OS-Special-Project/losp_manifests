@@ -4,7 +4,7 @@
 
 Create a directory for the source files
 ```bash
-mkdir LOS-22 && cd LOS-22
+mkdir LOSP-22.1 && cd LOSP-22.1
 ```
 
 Install Repo in the created directory
