@@ -2,7 +2,7 @@
 
 ### Initializing Local Repo ###
 
-Create a directory for the source files
+Create a directory for the source files...
 ```bash
 mkdir LOSP-22.1 && cd LOSP-22.1
 ```
