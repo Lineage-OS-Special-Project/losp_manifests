@@ -6,6 +6,13 @@
         sync-c="true"
         sync-j="6" />
 
+<remove-project name="LineageOS/android_bootable_recovery" />
+<project path="bootable/recovery"
+         name="android_bootable_recovery"
+         remote="losp"
+         revision="lineage-23.2"
+         groups="pdk" />
+
 <remove-project name="LineageOS/android_frameworks_base" />
 <project path="frameworks/base"
          name="crDroid_frameworks_base"
