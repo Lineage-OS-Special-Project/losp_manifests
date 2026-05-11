@@ -24,4 +24,11 @@
          name="packages_apps_crDroidSettings"
          remote="losp"
          revision="16.0" />
+
+<remove-project name="LineageOS/android_packages_apps_Settings" />
+<project path="packages/apps/Settings"
+         name="crDroid_packages_apps_Settings"
+         remote="losp"
+         revision="16.0"
+         groups="pdk-fs,pdk-cw-tvc,sysui-studio" />
 </manifest>
