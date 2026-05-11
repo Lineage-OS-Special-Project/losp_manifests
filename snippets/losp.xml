@@ -12,4 +12,9 @@
          remote="losp"
          revision="16.0"
          groups="pdk-cw-fs,pdk-fs,sysui-studio" />
+
+<project path="packages/apps/ModCenter"
+         name="packages_apps_crDroidSettings"
+         remote="losp"
+         revision="16.0" />
 </manifest>
