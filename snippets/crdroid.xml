@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<remote name="crdroid"
+    fetch="https://github.com/crdroidandroid"
+     sync-c="true"
+    sync-j="6" />
+
+<remote  name="crdroid-gitlab"
+    fetch="https://gitlab.com/"
+    sync-c="true"
+    sync-j="6"
+    revision="refs/heads/16.0" />
+
+<!-- Direct crDroid repos used unchanged by LOSP -->
+
+<remove-project name="LineageOS/android_art" />
+<project
+    path="art"
+    name="android_art"
+    groups="pdk"
+    remote="crdroid"
+    revision="16.0" />
+
+<project
+    path="axion-sdk"
+    name="android_axion-sdk"
+    remote="crdroid"
+    revision="16.0" />
+
+<remove-project name="LineageOS/android_bionic" />
+<project
+    path="bionic"
+    name="android_bionic"
+    groups="pdk"
+    remote="crdroid"
+    revision="16.0" />
+
+<remove-project name="LineageOS/android_device_lineage_sepolicy" />
+<project
+    path="device/lineage/sepolicy"
+    name="android_device_crdroid_sepolicy"
+    remote="crdroid"
+    revision="16.0" />
+
+<remove-project name="platform/external/arm-optimized-routines" />
+<project
+    path="external/arm-optimized-routines"
+    name="android_external_arm-optimized-routines"
+    remote="crdroid"
+    revision="16.0"
+    groups="pdk" />
+
+<remove-project name="platform/external/bouncycastle" />
+<project
+    path="external/bouncycastle"
+    name="android_external_bouncycastle"
+    remote="crdroid"
+    revision="16.0"
+    groups="pdk" />
+
+<project
+    path="external/FadingEdgeLayout"
+    name="android_external_FadingEdgeLayout"
+    remote="crdroid"
+    revision="16.0" />
+
+<remove-project name="platform/external/jemalloc_new" />
+<project
+    path="external/jemalloc_new"
+    name="android_external_jemalloc-new"
+    remote="crdroid"
+    revision="16.0"
+    groups="pdk" />
+
+<remove-project name="LineageOS/android_external_wpa_supplicant_8" />
+<project
+    path="external/wpa_supplicant_8"
+    name="android_external_wpa_supplicant_8"
+    remote="crdroid"
+    revision="16.0"
+    groups="pdk" />
+
+<remove-project name="LineageOS/android_frameworks_av" />
+<project
+    path="frameworks/av"
+    name="android_frameworks_av"
+    remote="crdroid"
+    revision="16.0"
+    groups="pdk,sysui-studio" />
+
+<remove-project name="LineageOS/android_frameworks_libs_systemui" />
+<project
+    path="frameworks/libs/systemui"
+    name="android_frameworks_libs_systemui"
+    groups="pdk-cw-fs,pdk-fs,sysui-studio"
+    remote="crdroid"
+    revision="16.0" />
+
+<remove-project name="LineageOS/android_frameworks_native" />
+<project
+    path="frameworks/native"
+    name="android_frameworks_native"
+    remote="crdroid"
+    revision="16.0"
+    groups="pdk" />
+
+<remove-project name="platform/frameworks/opt/net/wifi" />
+<project
+    path="frameworks/opt/net/wifi"
+    name="android_frameworks_opt_net_wifi"
+    groups="pdk,sysui-studio"
+    remote="crdroid"
+    revision="16.0" />
+
+<remove-project name="LineageOS/android_frameworks_opt_telephony" />
+<project
+    path="frameworks/opt/telephony"
+    name="android_frameworks_opt_telephony"
+    groups="pdk,sysui-studio"
+    remote="crdroid"
+    revision="16.0" />
+
+<remove-project name="LineageOS/android_hardware_interfaces" />
+<project
+    path="hardware/interfaces"
+    name="android_hardware_interfaces"
+    remote="crdroid"
+    revision="16.0"
+    groups="pdk,sysui-studio" />
+
+<remove-project name="LineageOS/android_kernel_configs" />
+<project
+    path="kernel/configs"
+    name="android_kernel_configs"
+    remote="crdroid"
+    revision="16.0"
+    groups="vts,pdk" />
+
+<remove-project name="platform/libcore" />
+<project
+    path="libcore"
+    name="android_libcore"
+    groups="pdk"
+    remote="crdroid"
+    revision="16.0" />
+
+<project 
+    path="packages/apps/AppLocker"
+     name="android_packages_apps_AppLocker" 
+     remote="crdroid" 
+     revision="16.0"/>
+
+<remove-project name="LineageOS/android_packages_apps_Backgrounds" />
+<project 
+    path="packages/apps/Backgrounds" 
+    name="android_packages_apps_Backgrounds" 
+    remote="crdroid" 
+    revision="16.0"/>
+
+<project 
+    path="packages/apps/ColumbusService" 
+    name="android_packages_apps_ColumbusService" 
+    remote="crdroid" 
+    revision="16.0" />
+
+<remove-project name="LineageOS/android_packages_apps_Dialer" />
+<project 
+    path="packages/apps/Dialer"
+    name="android_packages_apps_Dialer" 
+    groups="pdk-fs" 
+    remote="crdroid" 
+    revision="16.0" />
+
+<remove-project name="LineageOS/android_packages_apps_DocumentsUI" />
+<project 
+    path="packages/apps/DocumentsUI" 
+    name="android_packages_apps_DocumentsUI" 
+    groups="pdk-cw-fs,pdk-fs" 
+    remote="crdroid" 
+    revision="16.0" />
+
+<project 
+    path="packages/apps/DolbyAtmos" 
+    name="android_packages_apps_DolbyAtmos" 
+    remote="crdroid" 
+    revision="16.0" />
+
+<project 
+    path="packages/apps/LMOFreeform" 
+    name="android_packages_apps_LMOFreeform" 
+    remote="crdroid" 
+    revision="16.0" />
+
+<project 
+    path="packages/apps/Matlog" 
+    name="android_packages_apps_Matlog" 
+    remote="crdroid" 
+    revision="16.0" />
+
+<remove-project name="LineageOS/android_packages_apps_Messaging" />
+<project 
+    path="packages/apps/Messaging" 
+    name="android_packages_apps_Messaging" 
+    groups="pdk-fs" 
+    remote="crdroid" 
+    revision="16.0" />
+  
+<project
+    path="packages/apps/FaceUnlock"
+    name="crdroidandroid/android_packages_apps_FaceUnlock"
+    remote="crdroid-gitlab"
+    revision="16.0" />
+
+<project
+    path="packages/apps/GameSpace"
+    name="android_packages_apps_GameSpace"
+    remote="crdroid"
+    revision="16.0" />
+
+<project 
+    path="packages/apps/OmniStyle" 
+    name="android_packages_apps_OmniStyle" 
+    remote="crdroid" 
+    revision="16.0" />
+
+<project 
+    path="packages/apps/Sandbox" 
+    name="android_packages_apps_Sandbox" 
+    remote="crdroid" 
+    revision="16.0" />
+
+<remove-project name="LineageOS/android_packages_apps_SettingsIntelligence" />
+<project 
+    path="packages/apps/SettingsIntelligence" 
+    name="android_packages_apps_SettingsIntelligence" 
+    groups="pdk-fs" 
+    remote="crdroid" 
+    revision="16.0"/>
+
+<remove-project name="LineageOS/android_packages_apps_ThemePicker" />
+<project 
+    path="packages/apps/ThemePicker" 
+    name="android_packages_apps_ThemePicker" 
+    groups="pdk-fs,sysui-studio" 
+    remote="crdroid"
+    revision="16.0" />
+
+<remove-project name="LineageOS/android_packages_apps_WallpaperPicker2" />
+<project
+    path="packages/apps/WallpaperPicker2"
+    name="android_packages_apps_WallpaperPicker2"
+    remote="crdroid"
+    revision="16.0"
+    groups="pdk-fs,sysui-studio" />
+
+<remove-project name="LineageOS/android_packages_modules_Bluetooth" />
+<project
+    path="packages/modules/Bluetooth"
+    name="android_packages_modules_Bluetooth"
+    remote="crdroid"
+    revision="16.0"
+    groups="pdk" />
+
+<remove-project name="LineageOS/android_packages_modules_Connectivity" />
+<project
+    path="packages/modules/Connectivity"
+    name="android_packages_modules_Connectivity"
+    remote="crdroid"
+    revision="16.0"
+    groups="pdk-cw-fs,pdk-fs" />
+
+<remove-project name="LineageOS/android_packages_modules_Permission" />
+<project
+    path="packages/modules/Permission"
+    name="android_packages_modules_Permission"
+    remote="crdroid"
+    revision="16.0"
+    groups="pdk-cw-fs,pdk-fs" />
+
+<remove-project name="LineageOS/android_packages_modules_Wifi" />
+<project
+    path="packages/modules/Wifi"
+    name="android_packages_modules_Wifi"
+    groups="pdk-cw-fs,pdk-fs,sysui-studio"
+    remote="crdroid"
+    revision="16.0" />
+
+<remove-project name="LineageOS/android_packages_services_Telecomm" />
+<project
+    path="packages/services/Telecomm"
+    name="android_packages_services_Telecomm"
+    groups="pdk-cw-fs,pdk-fs"
+    remote="crdroid"
+    revision="16.0" />
+
+<remove-project name="LineageOS/android_packages_services_Telephony" />
+<project
+    path="packages/services/Telephony"
+    name="android_packages_services_Telephony"
+    groups="pdk-cw-fs,pdk-fs"
+    remote="crdroid"
+    revision="16.0" />
+
+<remove-project name="platform/system/memory/libmeminfo" />
+<project
+    path="system/memory/libmeminfo"
+    name="android_system_memory_libmeminfo"
+    groups="pdk"
+    remote="crdroid"
+    revision="16.0" />
+
+<remove-project name="LineageOS/android_system_sepolicy" />
+<project
+    path="system/sepolicy"
+    name="android_system_sepolicy"
+    groups="pdk"
+    remote="crdroid"
+    revision="16.0" />
+
+<remove-project name="LineageOS/android_system_vold" />
+<project
+    path="system/vold"
+    name="android_system_vold"
+    groups="pdk"
+    remote="crdroid"
+    revision="16.0" />
+</manifest>
