@@ -20,6 +20,13 @@
          revision="16.0"
          groups="pdk-cw-fs,pdk-fs,sysui-studio" />
 
+<remove-project name="LineageOS/android_lineage-sdk" />
+<project
+    path="lineage-sdk"
+    name="crdroid_lineage-sdk"
+    remote="losp"
+    revision="16.0" />
+
 <project path="packages/apps/ModCenter"
          name="packages_apps_crDroidSettings"
          remote="losp"
