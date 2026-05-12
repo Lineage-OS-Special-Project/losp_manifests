@@ -38,4 +38,12 @@
          remote="losp"
          revision="16.0"
          groups="pdk-fs,pdk-cw-tvc,sysui-studio" />
+
+<remove-project name="LineageOS/android_system_core" />
+<project
+    path="system/core"
+    name="crdroid_system_core"
+    remote="losp"
+    revision="16.0"
+    groups="pdk" />
 </manifest>
