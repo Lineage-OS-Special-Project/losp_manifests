@@ -1104,4 +1104,5 @@
 
   <include name="snippets/lineage.xml" />
   <include name="snippets/losp.xml" />
+  <include name="snippets/crdroid.xml" />
 </manifest>
