@@ -28,6 +28,17 @@
     <linkfile src="tools" dest="build/tools" />
 </project>
 
+<remove-project name="LineageOS/android_build_soong" />
+<project
+    path="build/soong"
+    name="crdroid_build_soong"
+    remote="losp"
+    revision="16.0"
+    groups="pdk,tradefed,sysui-studio">
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+</project>
+
 <remove-project name="LineageOS/android_frameworks_base" />
 <project path="frameworks/base"
          name="crDroid_frameworks_base"
