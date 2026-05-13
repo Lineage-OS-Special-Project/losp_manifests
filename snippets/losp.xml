@@ -27,6 +27,13 @@
     remote="losp"
     revision="16.0" />
 
+<remove-project name="LineageOS/android_packages_apps_LineageParts" />
+<project
+    path="packages/apps/LineageParts"
+    name="crdroid_packages_apps_LineageParts"
+    remote="losp"
+    revision="16.0" />
+
 <project path="packages/apps/ModCenter"
          name="packages_apps_crDroidSettings"
          remote="losp"
