@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <project
+        name="Evolution-X/vendor_gms"
+        path="vendor/gms"
+        remote="github"
+        revision="cnb"
+        clone-depth="1" />
+
+</manifest>
