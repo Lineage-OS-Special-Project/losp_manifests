@@ -6,6 +6,12 @@
         sync-c="true"
         sync-j="6" />
 
+<remove-project name="LineageOS/android" />
+<project path="android"
+         name="losp_manifests"
+         remote="losp"
+         revision="crDroid" />
+
 <remove-project name="LineageOS/android_bootable_recovery" />
 <project path="bootable/recovery"
          name="android_bootable_recovery"
