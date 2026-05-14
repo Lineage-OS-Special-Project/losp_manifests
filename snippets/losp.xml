@@ -72,6 +72,12 @@
          revision="16.0"
          groups="pdk-fs,pdk-cw-tvc,sysui-studio" />
 
+<project
+    path="packages/services/AxQuickLook"
+    name="packages_services_AxQuickLook"
+    remote="losp"
+    revision="bq2" />
+
 <remove-project name="LineageOS/android_system_core" />
 <project
     path="system/core"
