@@ -79,4 +79,10 @@
     remote="losp"
     revision="17.0"
     groups="pdk" />
+
+<project
+    path="vendor/lineage"
+    name="android_vendor_crdroid"
+    remote="losp"
+    revision="17.0" />
 </manifest>
