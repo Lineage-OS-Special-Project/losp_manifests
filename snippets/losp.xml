@@ -84,6 +84,12 @@
     remote="losp"
     revision="17.0" />
 
+<project
+    path="packages/services/OmniJaws"
+    name="crdroid_packages_services_OmniJaws"
+    remote="losp"
+    revision="17.0" />
+
 <remove-project name="LineageOS/android_system_core" />
 <project
     path="system/core"
