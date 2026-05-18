@@ -1030,5 +1030,6 @@
   <include name="snippets/lineage.xml" />
   <include name="snippets/losp.xml" />
   <include name="snippets/crdroid.xml" />
+  <include name="snippets/evolution.xml" />
   <include name="snippets/gms.xml" />
 </manifest>
