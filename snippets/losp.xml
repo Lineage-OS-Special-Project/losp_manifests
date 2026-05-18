@@ -79,14 +79,14 @@
          groups="pdk-fs,pdk-cw-tvc,sysui-studio" />
 
 <project
-    path="packages/services/AxQuickLook"
-    name="packages_services_AxQuickLook"
-    remote="losp"
-    revision="bq2" />
-
-<project
     path="packages/services/OmniJaws"
     name="crdroid_packages_services_OmniJaws"
+    remote="losp"
+    revision="16.0" />
+
+<project
+    path="packages/services/QuickLook"
+    name="android_packages_services_QuickLook"
     remote="losp"
     revision="16.0" />
 
@@ -97,6 +97,12 @@
     remote="losp"
     revision="16.0"
     groups="pdk" />
+
+<project
+    path="vendor/extras"
+    name="vendor_extras"
+    remote="losp"
+    revision="cnb" />
 
 <project
     path="vendor/lineage"
