@@ -22,12 +22,6 @@
     remote="crdroid"
     revision="16.0" />
 
-<project
-    path="axion-sdk"
-    name="android_axion-sdk"
-    remote="crdroid"
-    revision="16.0" />
-
 <remove-project name="LineageOS/android_bionic" />
 <project
     path="bionic"
