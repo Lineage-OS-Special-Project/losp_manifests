@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="evox"
+          fetch="https://github.com/Evolution-X"
+          revision="refs/heads/bq2"
+          sync-c="true"
+          sync-j="6" />
+
+  <remote name="evox-devices"
+          fetch="https://github.com/Evolution-X-Devices"
+          revision="refs/heads/bka"
+          sync-c="true"
+          sync-j="6" />
+
+  <project path="packages/apps/PixelParts"
+           name="packages_apps_PixelParts"
+           remote="evox-devices"
+           revision="cnb" />
+</manifest>
