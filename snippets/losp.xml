@@ -59,6 +59,13 @@
     remote="losp"
     revision="16.0" />
 
+<remove-project name="LineageOS/android_packages_apps_Launcher3" />
+<project
+    path="packages/apps/Launcher3"
+    name="android_packages_apps_Launcher3"
+    remote="losp"
+    revision="16.0" />
+
 <remove-project name="LineageOS/android_packages_apps_LineageParts" />
 <project
     path="packages/apps/LineageParts"
