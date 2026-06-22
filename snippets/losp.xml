@@ -122,4 +122,10 @@
     name="android_vendor_crdroid"
     remote="losp"
     revision="16.0" />
+
+<project
+    path="vendor/pixel-style"
+    name="android_vendor_pixel-style"
+    remote="losp"
+    revision="cnb" />
 </manifest>
