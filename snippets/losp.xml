@@ -92,6 +92,12 @@
          groups="pdk" />
 
 <project
+    path="packages/resources/apps"
+    name="crdroid_packages_resources_apps"
+    remote="losp"
+    revision="16.0" />
+
+<project
     path="packages/services/OmniJaws"
     name="crdroid_packages_services_OmniJaws"
     remote="losp"
