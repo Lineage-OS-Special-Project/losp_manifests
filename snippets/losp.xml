@@ -45,6 +45,12 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
 </project>
 
+<project
+    path="external/lineage/datura"
+    name="android_external_lineage_datura"
+    remote="losp"
+    revision="android16-qpr2" />
+
 <remove-project name="LineageOS/android_frameworks_base" />
 <project path="frameworks/base"
          name="crDroid_frameworks_base"
