@@ -15,4 +15,18 @@
         remote="calyxos-gitlab"
         revision="main" />
 
+    <!-- CalyxOS F-Droid components -->
+
+    <project
+        path="prebuilts/calyx/fdroid"
+        name="lfs_prebuilts_calyx_fdroid"
+        remote="calyxos-gitlab"
+        revision="main" />
+
+    <project
+        path="external/calyx/GCamPhotosPreview"
+        name="platform_external_calyx_GCamPhotosPreview"
+        remote="calyxos-gitlab"
+        revision="main" />
+
 </manifest>
