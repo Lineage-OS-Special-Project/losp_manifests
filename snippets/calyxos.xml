@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <remote
+        name="calyxos-gitlab"
+        fetch="https://gitlab.com/CalyxOS"
+        sync-c="true"
+        sync-j="6" />
+
+    <!-- CalyxOS microG components -->
+
+    <project
+        path="prebuilts/calyx/microg"
+        name="lfs_prebuilts_calyx_microg"
+        remote="calyxos-gitlab"
+        revision="main" />
+
+</manifest>
