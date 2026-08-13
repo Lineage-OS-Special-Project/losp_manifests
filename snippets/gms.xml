@@ -5,7 +5,7 @@
         name="Evolution-X/vendor_gms"
         path="vendor/gms"
         remote="github"
-        revision="cnb"
+        revision="bka"
         clone-depth="1" />
 
 </manifest>
