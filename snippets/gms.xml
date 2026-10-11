@@ -2,7 +2,7 @@
 <manifest>
 
     <project
-        name="Evolution-X/vendor_gms"
+        name="yehonatan5785/vendor_gms"
         path="vendor/gms"
         remote="github"
         revision="cnb"
