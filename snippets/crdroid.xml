@@ -176,12 +176,6 @@
     revision="17.0" />
 
 <project 
-    path="packages/apps/OmniStyle" 
-    name="android_packages_apps_OmniStyle" 
-    remote="crdroid" 
-    revision="17.0" />
-
-<project 
     path="packages/apps/Sandbox" 
     name="android_packages_apps_Sandbox" 
     remote="crdroid" 

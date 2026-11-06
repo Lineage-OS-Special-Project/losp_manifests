@@ -78,6 +78,12 @@
          remote="losp"
          revision="17.0" />
 
+<project
+    path="packages/apps/OmniStyle"
+    name="crdroid_packages_apps_OmniStyle"
+    remote="losp"
+    revision="17.0" />
+
 <remove-project name="LineageOS/android_packages_apps_Settings" />
 <project path="packages/apps/Settings"
          name="crDroid_packages_apps_Settings"
