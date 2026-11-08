@@ -52,6 +52,12 @@
          revision="17.0"
          groups="pdk-cw-fs,pdk-fs,sysui-studio" />
 
+<project
+    path="external/datura"
+    name="android_external_lineage_datura"
+    remote="losp"
+    revision="android17" />
+
 <remove-project name="LineageOS/android_lineage-sdk" />
 <project
     path="lineage-sdk"
